@@ -79,7 +79,8 @@ def plot_male_female_association(gender_profile_lang):
         
         i += 1
         
-        plt.title("Gender Association for: " + subject)
+        plt.ylabel("Avg Pairwise Cosine Similarity")
+        plt.title(subject + "-Gender Association over Time")
 
         xaxis = [i for i in range(0, int((gender_profile_lang.end-gender_profile_lang.start)/10))]
         xtick = [1800+x for x in range(gender_profile_lang.start, gender_profile_lang.end, 10)]
@@ -137,14 +138,14 @@ def compute_bias_against_weat(gender_profile_lang):
         print("Regression Params: ", ",".join(str(x) for x in regression_params[-1]))
         print()
         """
-        plt.title("Gender Bias (Male - Female): " + subject)
-        #plt.title("Gender Bias for: " + lang_list[i])
+        
+    plt.ylabel("Male Gender Bias")
 
-        xaxis = [i for i in range(0, int((gender_profile_lang.end-gender_profile_lang.start)/10))]
-        xtick = [1800+x for x in range(gender_profile_lang.start, gender_profile_lang.end, 10)]
+    xaxis = [i for i in range(0, int((gender_profile_lang.end-gender_profile_lang.start)/10))]
+    xtick = [1800+x for x in range(gender_profile_lang.start, gender_profile_lang.end, 10)]
 
-        plt.xticks(xaxis, xtick, rotation=45)
-        plt.ylim(-0.1, +0.1)
+    plt.xticks(xaxis, xtick, rotation=45)
+    plt.ylim(-0.1, +0.1)
     
     plt.show()
         
