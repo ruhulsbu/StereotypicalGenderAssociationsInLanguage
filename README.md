@@ -1,4 +1,4 @@
-## Stereotypical Gender Associations in Language Have Decreased Over Time
+# Stereotypical Gender Associations in Language Have Decreased Over Time
 
 **__Current Version: 0.10__**
 
