@@ -6,7 +6,7 @@ Release Date: September 28, 2018
 
 **Please contact moamin@cs.stonybrook.edu for quick response to resolve any bug or feature update.**
 
-### Reproducing Results Discussed in Manuscript
+## Reproducing Results Discussed in Manuscript
 
 #### Please follow the following steps to download source code: 
   * Download and install `git` and git's extenstion `git-lfs`
@@ -20,7 +20,7 @@ Release Date: September 28, 2018
   *  `Stereotypical Gender Association in Language Over Time.ipynb`
   * Run each cell in the notebooks sequentially to reproduce the results
 
-### Dependencies
+## Dependencies
 
 #### Large file dependencies:
   * `git-lfs` to download large file `dataset.tar.gz`
