@@ -8,17 +8,17 @@ Release Date: September 28, 2018
 
 ### Reproducing Results Discussed in Manuscript
 
-Please follow the following steps to download source code: 
+#### Please follow the following steps to download source code: 
   * Download and install git and git's extenstion git-lfs
   * Clone source code: git clone https://github.com/ruhulsbu/StereotypicalGenderAssociationsInLanguage.git
   * Go to the StereotypicalGenderAssociationsInLanguage directory
   * Unzip the dataset.tar.gz using command: tar -xvzf dataset.tar.gz
   * Run Jupyter Notebook in current directory using command: jupyter notebook 
 
-Open the following notebook files: 
+#### Open the following notebook files: 
   *  Significance Test on Gender Bias using WEAT Topics.ipynb
   *  Stereotypical Gender Association in Language Over Time.ipynb
-Run each cell in the notebooks sequentially to reproduce the results
+  * Run each cell in the notebooks sequentially to reproduce the results
 
 ### Dependencies
 
