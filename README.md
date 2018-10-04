@@ -6,13 +6,16 @@ Release Date: September 28, 2018
 
 **Please contact moamin@cs.stonybrook.edu for quick response to resolve any bug or feature update.**
 
-Please follow the following steps to install NanoBLASTer from source:
+Please follow the following steps to reproduce results discussed in the manuscript:
 ```
 Clone source code: git clone https://github.com/ruhulsbu/StereotypicalGenderAssociationsInLanguage.git
 Go to the StereotypicalGenderAssociationsInLanguage directory
 Unzip the dataset.tar.gz using command: tar -xvzf dataset.tar.gz
 Run Jupyter Notebook in current directory using command: jupyter notebook
-Open the notebook files: 
+Open the following notebook files: 
+  *  Significance Test on Gender Bias using WEAT Topics.ipynb
+  *  Stereotypical Gender Association in Language Over Time.ipynb
+Run each cell in the notebooks sequentially to reproduce the results
 ```  
 
 ### Dependencies
