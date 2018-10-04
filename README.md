@@ -21,7 +21,9 @@ GitHub dependencies:
   * git-lfs to download large file dataset.tar.gz
 
 This dataset is originally hosted in [Histwords Project](https://nlp.stanford.edu/projects/histwords/)
-Alternatively, dataset can be downloaded from this link: [Embeddings] http://snap.stanford.edu/historical_embeddings/eng-all_sgns.zip
+
+Alternatively, dataset can be downloaded from this link: [Embeddings](http://snap.stanford.edu/historical_embeddings/eng-all_sgns.zip)
+
 Please extract the files into the directory "dataset" in project home directory.
 
 Core dependencies:
