@@ -1,6 +1,7 @@
 ## Stereotypical Gender Associations in Language Have Decreased Over Time
 
 **__Current Version: 0.10__**
+
 Release Date: September 28, 2018  
 
 **Please contact moamin@cs.stonybrook.edu for quick response to resolve any bug or feature update.**
@@ -8,7 +9,9 @@ Release Date: September 28, 2018
 ### Dependencies
 
 GitHub dependencies:
-  * git-lfs to download large files dataset.targ.gz
+  * git-lfs to download large file dataset.tar.gz
+
+This dataset is originally hosted in [Histwords Project](https://github.com/williamleif/histwords)
 
 Core dependencies:
   * python 3.6.0
