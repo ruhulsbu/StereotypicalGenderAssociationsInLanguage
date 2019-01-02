@@ -145,7 +145,10 @@ def compute_bias_against_weat(gender_profile_lang):
     xtick = [1800+x for x in range(gender_profile_lang.start, gender_profile_lang.end, 10)]
 
     plt.xticks(xaxis, xtick, rotation=45)
-    plt.ylim(-0.1, +0.1)
+    #plt.ylim(-0.1, +0.1)
+
+    plt.legend(bbox_to_anchor=(0., 1.1, 1., .102), loc=4, \
+            ncol=4, mode="expand", borderaxespad=0.)
     
     plt.show()
         
